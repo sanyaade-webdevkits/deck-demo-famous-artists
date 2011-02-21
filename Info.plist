@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Famous Artists</string>
+	<key>tintColor</key>
+	<string>0.9 0.9 0.9</string>
+	<key>linkTitle</key>
+	<string>See More</string>
+	<key>renderFront</key>
+	<true/>
+	<key>labelBinding</key>
+	<string>name</string>
+	<key>linkBinding</key>
+	<string>website</string>
+	<key>frontPageBindings</key>
+	<dict>
+		<key>#name</key>
+		<string>name</string>
+		<key>#photo</key>
+		<string>featuredImage</string>
+		<key>#photo.position.portrait</key>
+		<string>featuredPosition</string>
+		<key>#title</key>
+		<string>featuredTitle</string>
+	</dict>
+	<key>backPageBindings</key>
+	<dict>
+		<key>#biography</key>
+		<string>biography</string>
+		<key>#name</key>
+		<string>name</string>
+		<key>#photo</key>
+		<string>photo</string>
+		<key>#slideshow</key>
+		<string>slideshow</string>
+		<key>#title1</key>
+		<string>title1</string>
+		<key>#title2</key>
+		<string>title2</string>
+		<key>#title3</key>
+		<string>title3</string>
+	</dict>
+</dict>
+</plist>

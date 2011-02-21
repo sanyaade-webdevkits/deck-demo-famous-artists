@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+  <background-pattern>Pattern-White.png</background-pattern>
+  <blocks>
+    <!-- *********** Slide Show ********** -->
+    <block id="slidePhoto" type="group">
+      <blocks>
+        <!-- Work　Photo -->
+        <block type="slideshow" id="#slideshow" referential-anchor="top-left" anchor="top-left">
+          <state id="portrait">
+            <size>690px 460px</size>
+            <position>19px 19px</position>
+          </state>
+          <state id="landscape">
+            <size>580px 387px</size>
+            <position>19px 69px</position>
+          </state>
+          <scaling>aspect-fit</scaling>
+          <display-duration>5.0</display-duration>
+          <transition-duration>1.0</transition-duration>
+        </block>
+        <!-- Work Title -->
+        <block type="group" referential-id="#slideshow" referential-anchor="bottom-right" anchor="top-right">
+          <state>
+            <position>0px 5px</position>
+            <size>400px 30px</size>
+          </state>
+          <blocks>
+            <!-- Title 1 -->
+            <block type="string" id="#title1">
+              <animations>
+                <animation id="loop" loop="yes">
+                  <keyframe time="0.0">
+                    <opacity>1.0</opacity>
+                  </keyframe>
+                  <keyframe time="5.0">
+                    <opacity>1.0</opacity>
+                  </keyframe>
+                  <keyframe time="6.0">
+                    <opacity>0.0</opacity>
+                  </keyframe>
+                  <keyframe time="17.0">
+                    <opacity>0.0</opacity>
+                  </keyframe>
+                  <keyframe time="18.0">
+                    <opacity>1.0</opacity>
+                  </keyframe>
+                </animation>
+              </animations>
+              <font>
+                <name>Futura Medium</name>
+                <size>20px</size>
+              </font>
+              <paragraph-style>
+                <alignment>right</alignment>
+              </paragraph-style>
+              <foreground-color>0.5 0.5 0.5</foreground-color>
+              <shadow-color>1.0 1.0 1.0</shadow-color>
+              <shadow-offset>0px -1px</shadow-offset>
+            </block>
+            <!-- Title 2 -->
+            <block type="string" id="#title2">
+              <animations>
+                <animation id="loop" loop="yes">
+                  <keyframe time="0.0">
+                    <opacity>0.0</opacity>
+                  </keyframe>
+                  <keyframe time="5.0">
+                    <opacity>0.0</opacity>
+                  </keyframe>
+                  <keyframe time="6.0">
+                    <opacity>1.0</opacity>
+                  </keyframe>
+                  <keyframe time="11.0">
+                    <opacity>1.0</opacity>
+                  </keyframe>
+                  <keyframe time="12.0">
+                    <opacity>0.0</opacity>
+                  </keyframe>
+                  <keyframe time="18.0">
+                    <opacity>0.0</opacity>
+                  </keyframe>
+                </animation>
+              </animations>
+              <font>
+                <name>Futura Medium</name>
+                <size>20px</size>
+              </font>
+              <paragraph-style>
+                <alignment>right</alignment>
+              </paragraph-style>
+              <foreground-color>0.5 0.5 0.5</foreground-color>
+              <shadow-color>1.0 1.0 1.0</shadow-color>
+              <shadow-offset>0px -1px</shadow-offset>
+            </block>
+            <!-- Title 3 -->
+            <block type="string" id="#title3">
+              <animations>
+                <animation id="loop" loop="yes">
+                  <keyframe time="0.0">
+                    <opacity>0.0</opacity>
+                  </keyframe>
+                  <keyframe time="11.0">
+                    <opacity>0.0</opacity>
+                  </keyframe>
+                  <keyframe time="12.0">
+                    <opacity>1.0</opacity>
+                  </keyframe>
+                  <keyframe time="17.0">
+                    <opacity>1.0</opacity>
+                  </keyframe>
+                  <keyframe time="18.0">
+                    <opacity>0.0</opacity>
+                  </keyframe>
+                </animation>
+              </animations>
+              <font>
+                <name>Futura Medium</name>
+                <size>20px</size>
+              </font>
+              <paragraph-style>
+                <alignment>right</alignment>
+              </paragraph-style>
+              <foreground-color>0.5 0.5 0.5</foreground-color>
+              <shadow-color>1.0 1.0 1.0</shadow-color>
+              <shadow-offset>0px -1px</shadow-offset>
+            </block>
+          </blocks>
+        </block>
+      </blocks>
+    </block>
+    <!-- *********** Artist Info ********** -->
+    <block type="group">
+      <blocks>
+        <!-- bio -->
+        <block type="string" id="#biography" referential-anchor="bottom-center" anchor="bottom-left" autosize="yes" fade-state-changes="yes">
+          <state id="portrait">
+            <position>-10px -30px</position>
+            <size>340px 200px</size>
+          </state>
+          <state id="landscape">
+            <position>192px -280px</position>
+            <size>280px 200px</size>
+          </state>
+          <font>
+            <size>16px</size>
+            <name>Helvetica Neue</name>
+          </font>
+          <columns>
+            <alignment>top</alignment>
+          </columns>
+          <paragraph-style>
+            <alignment>justify</alignment>
+            <line-breaking>wrap-words</line-breaking>
+          </paragraph-style>
+          <foreground-color>0.3 0.3 0.3</foreground-color>
+        </block>
+        <!-- Artist Name -->
+        <block type="string" id="#name" referential-id="#biography" referential-anchor="top-left" anchor="bottom-left" fade-state-changes="yes">
+          <state id="portrait">
+            <position>0px 0px</position>
+            <size>340px 60px</size>
+          </state>
+          <state id="landscape">
+            <position>0px 0px</position>
+            <size>360px 60px</size>
+            <scale>0.8</scale>
+          </state>
+          <font>
+            <name>Futura Medium</name>
+            <size>40px</size>
+          </font>　
+          <paragraph-style>
+            <alignment>left</alignment>
+          </paragraph-style>
+        <foreground-color>0.0 0.0 0.0</foreground-color>
+        <shadow-color>1.0 1.0 1.0</shadow-color>
+        <shadow-offset>0px -2px</shadow-offset>
+      </block>
+      <!--Artist Photo -->
+      <block type="image" id="#photo" referential-anchor="bottom-left" anchor="bottom-left">
+        <state id="portrait">
+          <position>0px 0px</position>
+          <size>320px 280px</size>
+        </state>
+        <state id="landscape">
+          <position>684px 0px</position>
+          <size>300px 266px</size>
+        </state>
+        </block>
+      </blocks>
+    </block>
+  </blocks>
+</page>

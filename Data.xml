@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <card>
+    <name>Leonardo da Vinci</name>
+    <featuredImage>Card1-Featured.jpg</featuredImage>
+    <featuredPosition>-10px 280px</featuredPosition>
+    <featuredTitle>The Battle of Anghiari</featuredTitle>
+    <biography>Leonardo di ser Piero da Vinci (April 15, 1452 – May 2, 1519) was an Italian polymath: painter, sculptor, architect, musician, scientist, mathematician, engineer, inventor, anatomist, geologist, cartographer, botanist and writer.</biography>
+    <photo>Card1-Artist.jpg</photo>
+    <slideshow>Card1-Image1.jpg|Card1-Image2.jpg|Card1-Image3.jpg</slideshow>
+    <title1>"The Battle of Anghiari"</title1>
+    <title2>"Last Supper"</title2>
+    <title3>"Annunciation"</title3>
+    <website>http://en.wikipedia.org/wiki/Leonardo_da_Vinci</website>
+  </card>
+  <card>
+    <name>Renoir</name>
+    <featuredImage>Card2-Featured.jpg</featuredImage>
+    <featuredPosition>-400px 540px</featuredPosition>
+    <featuredTitle>Dejeuner-canotiers</featuredTitle>
+    <biography>Pierre-Auguste Renoir (25 February 1841 – 3 December 1919) was a French artist who was a leading painter in the development of the Impressionist style.</biography>
+    <photo>Card2-Artist.jpg</photo>
+    <slideshow>Card2-Image1.jpg|Card2-Image2.jpg|Card2-Image3.jpg</slideshow>
+    <title1>"Dejeuner-canotiers"</title1>
+    <title2>"Le Moulin de la Galette"</title2>
+    <title3>"By the Water"</title3>
+    <website>http://en.wikipedia.org/wiki/Pierre-Auguste_Renoir</website>
+  </card>
+  <card>
+    <name>Claude Monet</name>
+    <featuredImage>Card3-Featured.jpg</featuredImage>
+    <featuredPosition>-520px 280px</featuredPosition>
+    <featuredTitle>Jardin à Sainte-Adresse</featuredTitle>
+    <biography>laude Monet, born Oscar Claude Monet (14 November 1840 – 5 December 1926), was a founder of French impressionist painting, and the most consistent and prolific practitioner of the movement's philosophy of expressing one's perceptions before nature, especially as applied to plein-air landscape painting.</biography>
+    <photo>Card3-Artist.jpg</photo>
+    <slideshow>Card3-Image1.jpg|Card3-Image2.jpg|Card3-Image3.jpg</slideshow>
+    <title1>"Jardin à Sainte-Adresse"</title1>
+    <title2>"Impression"</title2>
+    <title3>"Nymphéas (Seerosen)"</title3>
+    <website>http://en.wikipedia.org/wiki/Claude_Monet</website>
+  </card>
+  <card>
+    <name>Raphael</name>
+    <featuredImage>Card4-Featured.jpg</featuredImage>
+    <featuredPosition>180px 80px</featuredPosition>
+    <featuredTitle>The School of Athens</featuredTitle>
+    <biography>Raffaello Sanzio da Urbino (April 6 or March 28, 1483 – April 6, 1520), better known simply as Raphael, was an Italian painter and architect of the High Renaissance, celebrated for the perfection and grace of his paintings and drawings.</biography>
+    <photo>Card4-Artist.jpg</photo>
+    <slideshow>Card4-Image1.jpg|Card4-Image2.jpg|Card4-Image3.jpg</slideshow>
+    <title1>"The School of Athens"</title1>
+    <title2>"The Parnassus "</title2>
+    <title3>"Massatbolsena"</title3>
+    <website>http://en.wikipedia.org/wiki/Raphael</website>
+  </card>
+  <card>
+    <name>Vincent van Gogh</name>
+    <featuredImage>Card5-Featured.jpg</featuredImage>
+    <featuredPosition>180px 80px</featuredPosition>
+    <featuredTitle>The Starry Night </featuredTitle>
+    <biography>Vincent Willem van Gogh (30 March 1853 – 29 July 1890) was a Dutch post-Impressionist painter whose work had a far-reaching influence on 20th century art for its vivid colors and emotional impact.</biography>
+    <photo>Card5-Artist.jpg</photo>
+    <slideshow>Card5-Image1.jpg|Card5-Image2.jpg|Card5-Image3.jpg</slideshow>
+    <title1>"The Starry Night"</title1>
+    <title2>"Irises"</title2>
+    <title3>"Bedroom in Arles"</title3>
+    <website>http://en.wikipedia.org/wiki/Vincent_van_Gogh</website>
+  </card>
+  <card>
+    <name>Paul Cézanne</name>
+    <featuredImage>Card6-Featured.jpg</featuredImage>
+    <featuredPosition>180px 80px</featuredPosition>
+    <featuredTitle>The Basket of Apples</featuredTitle>
+    <biography>Paul Cézanne (19 January 1839 – 22 October 1906) was a French artist and Post-Impressionist painter whose work laid the foundations of the transition from the 19th century conception of artistic endeavor to a new and radically different world of art in the 20th century.</biography>
+    <photo>Card6-Artist.jpg</photo>
+    <slideshow>Card6-Image1.jpg|Card6-Image2.jpg|Card6-Image3.jpg</slideshow>
+    <title1>"The Basket of Apples"</title1>
+    <title2>"L'Estaque"</title2>
+    <title3>"Mont Sainte-Victoire"</title3>
+    <website>http://en.wikipedia.org/wiki/Paul_C%C3%A9zanne</website>
+  </card>
+</root>

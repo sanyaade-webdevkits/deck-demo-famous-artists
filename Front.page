@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+  <background-color>1.0 1.0 1.0</background-color>
+  <blocks>
+    <!-- Photo -->
+    <block type="image" id="#photo" referential-anchor="bottom-center" anchor="bottom-center" autosize="yes">
+      <state id="portrait">
+        <size>1500px 1500px</size>
+      </state>
+      <state id="landscape">
+        <size>1014px 628px</size>
+      </state>
+      <autosizing>aspect-fill</autosizing>
+    </block>
+    <!-- Banner -->
+    <block type="group" referential-anchor="bottom-center" anchor="bottom-center">
+      <state id="portrait">
+        <size>100% 80px</size>
+      </state>
+      <state id="landscape">
+        <size>100% 0px</size>
+      </state>
+      <background-color>1.0 1.0 1.0</background-color>
+    </block>
+    <!-- Title -->
+    <block type="string" id="#title" referential-anchor="bottom-left" anchor="top-left">
+      <state id="portrait">
+        <position>10px -80px</position>
+        <size>300px 46px</size>
+      </state>
+      <state id="landscape">
+        <position>10px 0px</position>
+        <size>300px 46px</size>
+      </state>
+      <font>
+        <name>Futura Medium</name>
+        <size>25px</size>
+      </font>
+      <paragraph-style>
+        <alignment>left</alignment>
+        <line-breaking>wrap-words</line-breaking>
+      </paragraph-style>
+      <foreground-color>0.5 0.5 0.5</foreground-color>
+      <background-color>1.0 1.0 1.0</background-color>
+    </block>
+    <!-- Name -->
+    <block type="string" id="#name" referential-anchor="bottom-right" anchor="bottom-right">
+      <state id="portrait">
+        <position>-15px -5px</position>
+        <size>420px 70px</size>
+      </state>
+      <state id="landscape">
+        <position>-15px 70px</position>
+        <size>420px 70px</size>s
+      </state>
+      <font>
+        <name>Futura Medium</name>
+        <size>50px</size>
+      </font>
+      <paragraph-style>
+        <alignment>right</alignment>
+      </paragraph-style>
+      <foreground-color>0.0 0.0 0.0</foreground-color>
+      <background-color>1.0 1.0 1.0</background-color>
+    </block>
+  </blocks>
+</page>
